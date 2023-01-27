@@ -1,22 +1,23 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing:border-box ;
-}
+} 
+ body{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+ } 
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-header{
+
+/* header{
     color: black;
-    padding: 20px;
+    padding: 20px; */
 }
 
 nav.bar{
     display: flex;
-    margin-left: 20px
+    gap: 20px;
     justify-content:center;
 }
 header ul{
@@ -32,14 +33,16 @@ header ul{
 
 header nav.bar li{
     margin-right: 40px;
+
 }
 
-header nav.bar li a{
+header nav.bar ul li a{
     color: black;
     text-align: none;
+    text-decoration: none;
 }
 
-main{
+/* main{
    padding: 20px;
    text-align: center;
 }
@@ -51,32 +54,33 @@ p{
     justify-content: center;
     display: flex;
 }
-
+ 
 .zz{
     color: aqua;
 }
 
-.logo{
-    width: 20px;}
+/* .loggo{
+    width: 20px;
+    height: 20px;
+}  */
 
-. photo{
-    border-radius: 20px;
+.photo{
+     border-radius: 40px; 
     display: block;
-    margin: 20px;
-    align-items: center;
-    justify-content: center;
-    
+    margin: 20px auto;
+    width: 50%;
 
 }
 
-b.center{
+
+/* b.center{
     background-color: aqua;
     padding: 20px 30px;
     border-radius: 30px;
     border: 0px;
     color: white;
-    text-align: center;
-}
+    text-align: center; */
+} 
 footer{
     display: flex;
     justify-content: space-between;
@@ -89,34 +93,32 @@ footer ul{
    display: flex;
    align-items: center;
    justify-content: center; 
-   justify-content: space-between; 
+   /* justify-content: space-between;  */
 }
+
 
 footer ul li a{
-    color: black;
-    padding: 5px;
-    color: grey;
-}
-
-footer ul li a i{
     width: 50px;
     color: black;
-    height: 50px;
+    /* height: 50px; */
     line-height: 5opx;
-    background-color: aqua;
+    /* background-color: aqua; */
     border-radius: 50%;
-    text-align: top;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center; */
+    /* flex-direction: column; */
 
 }
-
-
-
-
-
-
-
-
-
+.yes{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+height: 100px;
+}
+/* .align{
+    display: flex;
+} */
+/* .container{
+    width: 900px;
+}  */ */ */
